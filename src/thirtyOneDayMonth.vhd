@@ -84,7 +84,7 @@ begin
 	       not i_A when "011",
 	       i_A when "100",
 	       not i_A when "101",
-	       i_A when "110",
+	       not i_A when "110",
 	       not i_A when "111",
 	       
 	      '0' when others;
